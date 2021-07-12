@@ -1,0 +1,26 @@
+{
+	"name": "flex-template",
+	"version": "1.0.0",
+	"author": "Eric Harms",
+	"description": "Flex website template for creating Flex websites.",
+	"license": "MIT",
+	"main": "index.js",
+	"scripts": {
+		"build": "parcel build index.html",
+		"watch": "parcel index.html"
+	},
+	"staticFiles": {
+		"staticPath": "src/public",
+		"excludeGlob": "**/*.md"
+	},
+	"devDependencies": {
+		"cssnano": "^4.1.10",
+		"marked": "^0.8.0",
+		"page.js": "^4.13.3",
+		"parcel-plugin-clean-dist": "0.0.6",
+		"parcel-plugin-static-files-copy": "^2.3.1"
+	},
+	"dependencies": {
+		"generic": "^0.1.1"
+	}
+}
